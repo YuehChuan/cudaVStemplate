@@ -24,3 +24,18 @@ https://github.com/NVlabs/instant-ngp/issues/923
 https://blog.csdn.net/qq_26157437/article/details/129834852
 
 ![cuda](https://github.com/YuehChuan/cudaVStemplate/assets/7314531/f34ab26c-7415-4f52-afdc-0ef3a89c7c65)
+
+## How to fly 
+
+Simpily open the cudaVStemplate folder with Visual Studio, 
+this project use CMake not .sln. 
+
+Make sure the correspondent Cuda version in the CMakeLists.txt. (>=11.6)
+
+Hit compile the solution button.
+
+basic_vector.cu uses header only Cuda library thrust to make sure the environment works.
+
+![step](https://github.com/YuehChuan/cudaVStemplate/assets/7314531/955c20fa-e5a3-4872-a19d-f5e2536de55b)
+
+![step2](https://github.com/YuehChuan/cudaVStemplate/assets/7314531/a0c28995-ac9e-47ec-95eb-3b434e13fda8)
